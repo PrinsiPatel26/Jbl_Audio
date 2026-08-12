@@ -27,7 +27,7 @@ export const IMG = {
   
   // Real product images from AUDIO product folder
   catAmplifiers: PRODUCTS + 'Amplifiers/PROFESSIONAL POWER AMPLIFIER.jfif',
-  catMicrophones: PRODUCTS + 'Microphone/WIRED VOCAL MICROPHONE',
+  catMicrophones: PRODUCTS + 'Microphone/PROFESSIONAL WIRELESS MICROPHONE',
   catSpeakersTweeters: PRODUCTS + 'Speakers & Tweeters/BULLET TWEETER.jfif',
   catLightingSFX: PRODUCTS + 'Lighting & SFX/MOVING HEAD LIGHT.jfif',
   catSpareParts: PRODUCTS + 'Spare Parts/DRIVER PARTS KIT.jfif',
