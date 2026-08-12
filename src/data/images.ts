@@ -1,10 +1,13 @@
 const BASE = "/";
+const PRODUCTS = "AUDIO product/";
 
 export const IMG = {
   heroStage: BASE + 'fc2712bb-a8d6-406a-a274-f35c92fce289.jpg',
   heroMixer: BASE + '61eccb3c-88ea-4580-a8e6-0b5f69a17f3a.jpg',
   heroLighting: BASE + '44ff2b7d-427f-459f-bccc-95893346a97f.jpg',
   heroComplete: BASE + '61b98dba-ede2-4412-a61e-28e57a168e0c.jpg',
+  
+  // Original placeholder images
   amplifier: BASE + '22b36c11-6b2e-4cbd-9bb3-ce39c685e7f3.jpg',
   mixer: BASE + '60c86b86-d999-4d46-87ef-64087f29f096.jpg',
   microphone: BASE + 'b0bbf6b1-7ba4-4ea0-bbbf-8ea42357d035.jpg',
@@ -20,5 +23,25 @@ export const IMG = {
   spareParts: BASE + 'c8b0fdd1-7a5d-4348-93a0-a930af4bd223.jpg',
   stand: BASE + '431d4cfc-5c21-4c0d-aed9-8d8b4cf19f29.jpg',
   dj: BASE + '67d011d0-66a1-4d64-b60a-694fe5c611fe.jpg',
-  passiveSpeaker: BASE + 'b19b7815-d21f-4efe-834e-04ea9c448d5e.jpg'
+  passiveSpeaker: BASE + 'b19b7815-d21f-4efe-834e-04ea9c448d5e.jpg',
+  
+  // Real product images from AUDIO product folder
+  catAmplifiers: PRODUCTS + 'Amplifiers/PROFESSIONAL POWER AMPLIFIER.jfif',
+  catMicrophones: PRODUCTS + 'Microphone/WIRED VOCAL MICROPHONE',
+  catSpeakersTweeters: PRODUCTS + 'Speakers & Tweeters/BULLET TWEETER.jfif',
+  catLightingSFX: PRODUCTS + 'Lighting & SFX/MOVING HEAD LIGHT.jfif',
+  catSpareParts: PRODUCTS + 'Spare Parts/DRIVER PARTS KIT.jfif',
+  catProcessors: PRODUCTS + 'Processors/DIGITAL SIGNAL PROCESSOR.jfif',
+  catWiresCables: PRODUCTS + 'Wires & Cables/XLR CABLE.jfif',
+  catConnectors: PRODUCTS + 'Connectors/XLR CONNECTOR.jfif',
+  catAccessories: PRODUCTS + 'Accessories/MICROPHONE STAND.jfif',
+  catSpeakerBox: PRODUCTS + 'Speaker Box/12\'\' SPEAKER BOX.jfif',
+  catMixers: PRODUCTS + 'Mixer/DIGITAL MIXER.jfif',
+  catPowerAmplifiers: PRODUCTS + 'Power Amplifiers/Power Amplifier 2000W.jfif',
+  catActiveSpeakers: PRODUCTS + 'Active Speakers/Active Speaker 15\'\'.jfif',
+  catPassiveSpeakers: PRODUCTS + 'Passive Speakers/PASSIVE SPEAKER 15\'\'.jfif',
+  catSubwoofers: PRODUCTS + 'Subwoofers/PROFESSIONAL SUBWOOFER.jfif',
+  catDJEquipment: PRODUCTS + 'DJ Equipment/DJ CONTROLLER.jfif',
+  catStandsMounts: PRODUCTS + 'Stands & Mounts/SPEAKER STAND (PAIR).jfif',
+  catProAudioAcc: PRODUCTS + 'Accessories/AUDIO RACK 12U.jfif'
 };
